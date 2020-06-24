@@ -1,0 +1,280 @@
+/* Variables */
+$mobile: 699px;
+$tablet: 700px;
+$laptop: 900px;
+
+/* General Typography */
+h1,h2,h3,h4,h5,h6,p,li,a,button,button-2,button-3{
+	font-family: 'Lato', sans-serif;
+	font-style: normal;
+	margin: 0;
+	font-variant-ligatures: no-common-ligatures;
+	font-kerning: normal;
+	font-feature-settings: "kern" 1, "liga" 0, "pnum" 1;
+}
+
+/* Tablet and Laptop Navigation */
+li{
+	font-weight: 600;
+	font-size: 82%;
+	letter-spacing: 0.115em;
+	color: #455D7A;
+}
+
+a{
+  text-decoration: none;
+  color: #455D7A;
+}
+
+a:visited{
+  text-decoration: none;
+  color: #455D7A;
+}
+
+#button-1{
+	color: white;
+}
+
+/* Main Title */
+h1{
+	@media screen and (max-width:$mobile){
+	font-size: 34px;
+	font-weight: 800;
+	letter-spacing: 0.02em;
+	line-height: 111%;
+	color: #455D7A;
+	text-align: center;
+	padding-top: 40px;
+	}
+	@media screen and (min-width:$tablet){
+	font-size: 40px;
+	font-weight: 800;
+	letter-spacing: 0.02em;
+	line-height: 111%;
+	color: #455D7A;
+	}
+	@media screen and (min-width:$laptop){
+	font-size: 56px;
+	}
+	@media screen and (min-width:1115px){
+	font-size: 66px;
+	}
+}
+
+h2{
+	@media screen and (max-width:$mobile){
+	font-weight: 600;
+	font-size: 14.5px;
+	letter-spacing: 0.08em;
+	color: #233142;
+	text-align: center;
+	}
+	@media screen and (min-width:$tablet){
+	font-weight: normal;
+	font-size: 14px;
+	letter-spacing: 0.085em;
+	color: #233142;
+	}
+	@media screen and (min-width:$laptop){
+	font-size: 22px;
+	.line-break { display: none; }
+	}
+}
+
+a.button-2{
+  text-decoration: none;
+  color: white;
+	font-weight: bold;
+	font-size: 100%;
+	letter-spacing: 0.110em;
+}
+
+a.button-2:visited{
+  text-decoration: none;
+  color: white;
+}
+
+#button-2{
+	font-weight: normal;
+	font-size: 90%;
+	letter-spacing: 0.110em;
+	color: white;
+}
+
+/* 3 Features */
+h3{
+	@media screen and (max-width:$mobile){
+	font-size: 28px;
+	font-weight: 600;
+	letter-spacing: 0.025em;
+	color: #455D7A;
+	text-align: center;
+	}
+	@media screen and (min-width:$tablet){
+	font-size: 28px;
+	font-weight: 600;
+	letter-spacing: 0.025em;
+	color: #455D7A;
+	}
+	@media screen and (min-width:$laptop){
+	font-size: 36px;
+	}
+}
+
+h4{
+	@media screen and (max-width:$mobile){
+	font-size: 15px;
+	font-weight: normal;
+	line-height: 150%;
+	letter-spacing: 0.03em;
+	color: #233142;
+	text-align: center;
+	}
+	@media screen and (min-width:$tablet){
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 150%;
+	letter-spacing: 0.03em;
+	color: #233142;
+	}
+	@media screen and (min-width:$laptop){
+	font-size: 18.5px;
+	}
+}
+
+a.button-3{
+  text-decoration: none;
+  color: white;
+	font-weight: bold;
+	font-size: 90%;
+	letter-spacing: 0.110em;
+}
+
+a.button-3:visited{
+  text-decoration: none;
+  color: white;
+}
+
+#button-3{
+	font-weight: normal;
+	font-size: 90%;
+	letter-spacing: 0.110em;
+	color: white;
+}
+
+/* Real Change, Real Fast */
+.description{
+	@media screen and (max-width:$mobile){
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 140%;
+	letter-spacing: 0.0353em;
+	text-align: center;
+	color: #455D7A;
+	padding-top: 20px;
+  padding-bottom: 20px;
+	}
+	@media screen and (min-width:$tablet){
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 140%;
+  letter-spacing: 0.0353em;
+  text-align: center;
+  color: #455D7A;
+	padding-top: 25px;
+  padding-bottom: 25px;
+	}
+}
+
+a.button-4{
+  text-decoration: none;
+  color: white;
+	font-weight: bold;
+	font-size: 90%;
+	letter-spacing: 0.110em;
+}
+
+a.button-4:visited{
+  text-decoration: none;
+  color: white;
+}
+
+#button-4{
+	font-weight: normal;
+	font-size: 90%;
+	letter-spacing: 0.110em;
+	color: white;
+}
+
+/* Paws of Approval */
+h5{
+	@media screen and (max-width:$mobile){
+	font-size: 24px;
+	text-align: center;
+	font-weight: 600;
+	letter-spacing: 0.03em;
+	color: #455D7A;
+	grid-column: 1 / span 4;
+	}
+	@media screen and (min-width:$tablet){
+	font-size: 28px;
+	text-align: center;
+	font-weight: 600;
+	letter-spacing: 0.03em;
+	color: #455D7A;
+	}
+	@media screen and (min-width:$laptop){
+	font-size: 36px;
+	}
+}
+
+/* Buy a Meal, Give a Meal */
+h6{
+	@media screen and (max-width:$mobile){
+	font-size: 28px;
+	font-weight: 600;
+	letter-spacing: 0.03em;
+	color: #455D7A;
+	padding-top: 15px;
+	}
+	@media screen and (min-width:$tablet){
+	font-size: 24px;
+	font-weight: 600;
+	letter-spacing: 0.03em;
+	color: #455D7A;
+	padding-top: 20px;
+	}
+	@media screen and (min-width:$laptop){
+	font-size: 36px;
+	}
+}
+
+p{
+	@media screen and (max-width:$mobile){
+	font-size: 15px;
+	line-height: 150%;
+	letter-spacing: 0.03em;
+	color: #233142;
+	text-align: center;
+	grid-column: 2 / span 2;
+	}
+	@media screen and (min-width:$tablet){
+	font-size: 14px;
+	line-height: 150%;
+	letter-spacing: 0.03em;
+	color: #233142;
+	}
+	@media screen and (min-width:$laptop){
+	font-size: 18.5px;
+	}
+}
+
+/* Footer */
+#footer-list{
+	letter-spacing: 0.1em;
+	line-height: 150%;
+	color: #455D7A;
+	text-align: center;
+}
